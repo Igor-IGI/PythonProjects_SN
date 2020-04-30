@@ -1,0 +1,19 @@
+print("Hello")
+print("This program server to convert kilometers to miles")
+
+kilometers_value = None
+miles_value = None
+
+while True:
+    kilometers_value = float(input("Enter your value in kilometers: "))
+    miles_value = kilometers_value * 0.62
+    print(f"{kilometers_value} km = {miles_value} miles")
+    continue_value = input("Do you want another conversion? (yes/no): ")
+
+    if continue_value == "yes":
+        continue
+
+    if continue_value == "no":
+        break
+
+print("Thanks you for used this program!")
