@@ -1,0 +1,10 @@
+string = input("Enter your first word: ")
+print(string.lower())
+
+# In case when you use character ß then it changes to ss
+string = input("Enter your second word: ")
+print(string.casefold())
+
+# When string or word has uppercase and lowercase or only lowercase gives FALSE, when has only uppercase gives TRUE
+string = input("Enter your third word: ")
+print(string.isupper())
