@@ -9,8 +9,7 @@ def random_city():
 
 
 def play_the_game():
-    random_country, _ = random_city()
-    _, city = random_city()
+    random_country, city = random_city()
     print(city)
 
     capital_city = input(f"What is the capital city of: {random_country}: ")
